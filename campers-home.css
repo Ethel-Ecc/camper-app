@@ -1,0 +1,94 @@
+.divHeader {
+    margin: 0;
+}
+.specialColor1{
+    background-color: limegreen;
+    font-family: "Book Antiqua", monospace;
+    letter-spacing: 1px;
+}
+.specialColor2{
+    background-color: black;
+    font-family: "Book Antiqua", monospace;
+    letter-spacing: 1px;
+}
+.specialColor3{
+    background-color: black;
+    font-family: "Book Antiqua", monospace;
+    letter-spacing: 1px;
+}
+footer{
+    margin-bottom: 5px;
+    background-color: black;
+    color: whitesmoke;
+}
+.divSet {
+    padding-bottom: 10px;
+    color: white;
+    margin-top: -10px;
+}
+.imageDiv{
+    border: 1px solid black;
+    max-width: 250px;
+}
+.imageDiv:hover {
+    border:3px solid silver;
+}
+.imageDiv img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 10px;
+    text-align: center;
+}
+*{
+    box-sizing:border-box;
+}
+.responsive {
+    padding: 0 15px;
+    float: left;
+    width: 20%;
+}
+@media only screen and (max-width: 700px ){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%
+    }
+}
+.clearFix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p{
+    text-align: justify;
+    font-family: "Book Antiqua", monospace;
+    padding-left: 15px;
+    padding-right:15px;
+    letter-spacing: 1px;
+}
+body{
+    background-image: url("https://res.cloudinary.com/ethelbert007/image/upload/v1495820255/coding_bqmzim.png");
+}
+.mainImg {
+    display: block;
+    margin: auto;
+}
+h4 {
+    padding-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+h3{
+    color: darkblue;
+    font-weight: bold;
+    font-family: Britannic Bold, monospace;
+}
+#entrance{
+    color: darkred;
+}
