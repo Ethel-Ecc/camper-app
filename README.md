@@ -3,7 +3,7 @@ Another version of a tribute-app for the FCC project.
 
 The Objective:
 
-    Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/NNvBQW/.
+    Build a CodePen.io app that is functionally stable.
 
 The UX and Functional Requirements:
 
